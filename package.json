@@ -48,14 +48,18 @@
     "axios": "^0.27.2"
   },
   "devDependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@parcel/packager-ts": "2.6.2",
     "@parcel/transformer-typescript-tsc": "^2.6.2",
     "@parcel/transformer-typescript-types": "^2.6.2",
+    "@radix-ui/react-dialog": "^0.1.7",
     "@rainbow-me/rainbowkit": "^0.4.1",
     "@types/node": "^17.0.10",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "ethers": "^5.6.9",
+    "framer-motion": "^6.4.2",
     "parcel": "^2.6.2",
     "prettier": "^2.5.1",
     "react": "^18.2.0",

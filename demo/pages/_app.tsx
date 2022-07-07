@@ -4,6 +4,7 @@ import '@rainbow-me/rainbowkit/styles.css'
 import { RainbowKitProvider, getDefaultWallets } from '@rainbow-me/rainbowkit'
 import { WagmiConfig, createClient, configureChains, chain } from 'wagmi'
 import { publicProvider } from 'wagmi/providers/public'
+import { ReservoirKitProvider } from '@reservoir0x/reservoir-kit'
 
 const { chains, provider } = configureChains(
   [chain.mainnet, chain.rinkeby],
@@ -27,8 +28,12 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains}>
-        {/* @ts-ignore */}
-        <Component {...pageProps} />
+        <ReservoirKitProvider
+          options={{ apiBase: 'https://api-rinkeby.reservoir.tools' }}
+        >
+          {/* @ts-ignore */}
+          <Component {...pageProps} />
+        </ReservoirKitProvider>
       </RainbowKitProvider>
     </WagmiConfig>
   )
