@@ -1,6 +1,6 @@
-# @reservoir0x/client-sdk
+# nfnt-client-sdk
 
-Client SDK for interacting with the Reservoir Router API
+Client SDK for interacting with the Enjoyooor Router API
 
 Check out the [client sdk sandbox](https://github.com/reservoirprotocol/sandbox) and the [docs](https://docs.reservoir.tools) to learn more.
 
