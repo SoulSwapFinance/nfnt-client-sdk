@@ -1,10 +1,10 @@
 {
-  "name": "@reservoir0x/client-sdk",
-  "version": "0.1.0",
-  "description": "Reservoir client SDK.",
+  "name": "nfnt-client-sdk",
+  "version": "0.0.1",
+  "description": "NFNT client SDK.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "Diego Ramos",
+  "author": "0xBuns",
   "license": "MIT",
   "files": [
     "dist/**/*"
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reservoirprotocol/client-sdk"
+    "url": "https://github.com/soulswapfinance/nfnt-client-sdk"
   },
   "prettier": {
     "semi": false,
@@ -28,7 +28,7 @@
   },
   "keywords": [
     "nft",
-    "reservoir",
+    "nfnt",
     "protocol",
     "sdk"
   ],
